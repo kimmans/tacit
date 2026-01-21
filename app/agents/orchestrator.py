@@ -88,7 +88,7 @@ class SECIOrchestrator:
     각 단계의 Agent를 조율합니다.
     """
 
-    def __init__(self, api_key: str, model: str = "claude-sonnet-4-20250514"):
+    def __init__(self, api_key: str, model: str = "claude-haiku-4-5-20251001"):
         self.client = Anthropic(api_key=api_key)
         self.model = model
 
