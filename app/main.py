@@ -22,7 +22,7 @@ load_dotenv()
 
 # 페이지 설정
 st.set_page_config(
-    page_title="Tacit - 암묵지 발견 서비스",
+    page_title="Tacit - 당신의 지식을 비즈니스 기회로 연결하세요",
     page_icon="🧠",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -155,7 +155,7 @@ def render_sidebar():
     """사이드바 렌더링"""
     with st.sidebar:
         st.title("🧠 Tacit")
-        st.markdown("*암묵지 발견 서비스*")
+        st.markdown("*당신의 지식을 비즈니스 기회로 연결하세요*")
 
         st.divider()
 
