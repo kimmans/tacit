@@ -1,0 +1,23 @@
+# Tacit - SECI-based Knowledge Creation Service
+# Core dependencies
+
+# LLM & Agent Framework
+langchain>=0.3.0
+langchain-anthropic>=0.3.0
+langgraph>=0.2.0
+
+# Anthropic Claude API
+anthropic>=0.40.0
+
+# Web UI
+streamlit>=1.40.0
+
+# Database & Vector Store
+chromadb>=0.5.0
+
+# Utilities
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+
+# Export
+markdown>=3.5.0
